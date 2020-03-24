@@ -1,0 +1,27 @@
+{
+  "name": "express-cors-http-proxy",
+  "version": "1.0.0",
+  "description": "这是使用 http-proxy 采用Express起服务解决前端跨域问题",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyjiugui/express-cors-http-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyjiugui/express-cors-http-proxy/issues"
+  },
+  "homepage": "https://github.com/yyjiugui/express-cors-http-proxy#readme"
+}
